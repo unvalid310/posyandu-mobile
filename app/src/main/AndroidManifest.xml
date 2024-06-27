@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.sipanduteam.sipandu">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:name=".App"
+        android:allowBackup="true"
+        android:hardwareAccelerated="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:screenOrientation="portrait"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Sipandu"
+        android:usesCleartextTraffic="true">
+        <activity android:name=".activity.KesehatanKeluargaActivity"
+            android:theme="@style/Theme.Sipandu.NoActionBar"></activity>
+        <activity
+            android:name=".activity.anak.GrafikAnakActivity"
+            android:theme="@style/Theme.Sipandu.NoActionBar" />
+        <activity
+            android:name=".activity.bumil.GrafikBeratBadanIbuActivity"
+            android:theme="@style/Theme.Sipandu.NoActionBar" />
+        <activity
+            android:name=".activity.lansia.MasalahKesehatanLansiaActivity"
+            android:theme="@style/Theme.Sipandu.NoActionBar" />
+        <activity
+            android:name=".activity.lansia.PenyakitBawaanLansiaActivity"
+            android:theme="@style/Theme.Sipandu.NoActionBar" />
+        <activity
+            android:name=".activity.lansia.AlergiActivity"
+            android:theme="@style/Theme.Sipandu.NoActionBar" />
+        <activity
+            android:name=".activity.lansia.KesehatanLansiaActivity"
+            android:theme="@style/Theme.Sipandu.NoActionBar" />
+        <activity
+            android:name=".activity.bumil.KesehatanIbuActivity"
+            android:theme="@style/Theme.Sipandu.NoActionBar" />
+        <activity
+            android:name=".activity.lansia.DetailRiwayatPemeriksaanLansiaActivity"
+            android:theme="@style/Theme.Sipandu.NoActionBar" />
+        <activity
+            android:name=".activity.lansia.RiwayatPemeriksaanLansiaActivity"
+            android:theme="@style/Theme.Sipandu.NoActionBar" />
+        <activity
+            android:name=".activity.bumil.DetailRiwayatPemeriksaanIbuActivity"
+            android:theme="@style/Theme.Sipandu.NoActionBar" />
+        <activity
+            android:name=".activity.bumil.RiwayatPemeriksaanIbuActivity"
+            android:theme="@style/Theme.Sipandu.NoActionBar" />
+        <activity
+            android:name=".activity.anak.DetailRiwayatPemeriksaanAnakActivity"
+            android:theme="@style/Theme.Sipandu.NoActionBar" />
+        <activity
+            android:name=".activity.anak.RiwayatPemeriksaanAnakActivity"
+            android:theme="@style/Theme.Sipandu.NoActionBar" />
+        <activity
+            android:name=".activity.anak.RiwayatImunisasiAnakActivity"
+            android:theme="@style/Theme.Sipandu.NoActionBar" />
+        <activity
+            android:name=".activity.DetailKeluargaActivity"
+            android:theme="@style/Theme.Sipandu.NoActionBar" />
+        <activity
+            android:name=".activity.anak.RiwayatVitaminAnakActivity"
+            android:theme="@style/Theme.Sipandu.NoActionBar" />
+        <activity
+            android:name=".activity.anak.KesehatanAnakActivity"
+            android:theme="@style/Theme.Sipandu.NoActionBar" />
+        <activity
+            android:name=".activity.HomeLansiaActivity"
+            android:theme="@style/Theme.Sipandu.NoActionBar" />
+        <activity
+            android:name=".activity.HomeIbuActivity"
+            android:theme="@style/Theme.Sipandu.NoActionBar" />
+        <activity android:name=".activity.anak.EditProfileAnakActivity" />
+        <activity
+            android:name=".activity.posyandu.PengumumanDetailActivity"
+            android:theme="@style/Theme.Sipandu.NoActionBar" />
+        <activity
+            android:name=".activity.posyandu.KegiatanDetailActivity"
+            android:theme="@style/Theme.Sipandu.NoActionBar" />
+        <activity
+            android:name=".activity.informasi.InformasiShowActivity"
+            android:label="Peta penyebaran posyandu"
+            android:theme="@style/Theme.Sipandu.NoActionBar" />
+        <activity android:name=".activity.AnggotaKeluargaActivity" />
+        <activity
+            android:name=".activity.WaitForVerifiedActivity"
+            android:theme="@style/Theme.Sipandu.NoActionBar" />
+        <activity
+            android:name=".activity.register.RegisterDataComplete"
+            android:theme="@style/Theme.Sipandu.NoActionBar" />
+        <activity
+            android:name=".activity.register.RegisterDataLansiaActivity"
+            android:theme="@style/Theme.Sipandu.NoActionBar" />
+        <activity
+            android:name=".activity.register.RegisterDataIbuActivity"
+            android:theme="@style/Theme.Sipandu.NoActionBar" />
+        <activity
+            android:name=".activity.register.RegisterDataAnakActivity"
+            android:theme="@style/Theme.Sipandu.NoActionBar" />
+        <activity
+            android:name=".activity.register.RegisterComplete"
+            android:theme="@style/Theme.Sipandu.NoActionBar" />
+        <activity
+            android:name=".activity.register.RegisterContinueActivity"
+            android:theme="@style/Theme.Sipandu.NoActionBar" />
+        <activity android:name=".activity.pengumuman.PengumumanActivity" />
+        <activity
+            android:name=".activity.informasi.InformasiActivity"
+            android:theme="@style/Theme.Sipandu.NoActionBar" />
+        <activity
+            android:name=".activity.posyandu.PosyanduKegiatanActivity"
+            android:theme="@style/Theme.Sipandu.NoActionBar" />
+        <activity
+            android:name=".activity.NotificationActivity"
+            android:theme="@style/Theme.Sipandu.NoActionBar" />
+        <activity
+            android:name=".activity.posyandu.KonsultasiTelegramActivity"
+            android:theme="@style/Theme.Sipandu.NoActionBar" />
+        <activity android:name=".activity.informasi.InformasiDetailActivity" />
+        <activity
+            android:name=".activity.posyandu.PosyanduMapActivity"
+            android:label="Peta penyebaran posyandu"
+            android:theme="@style/Theme.Sipandu.NoActionBar" />
+        <activity
+            android:name=".activity.ForgotpassActivity"
+            android:theme="@style/Theme.Sipandu.NoActionBar" />
+        <activity
+            android:name=".activity.HomeActivity"
+            android:theme="@style/Theme.Sipandu.NoActionBar" />
+        <activity
+            android:name=".activity.AboutActivity"
+            android:theme="@style/Theme.Sipandu.NoActionBar" />
+        <activity
+            android:name=".activity.register.RegisterActivity"
+            android:theme="@style/Theme.Sipandu.NoActionBar" />
+        <activity
+            android:name=".activity.SplashActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.Sipandu.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activity.LoginActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.Sipandu.NoActionBar.Login" />
+        <activity android:name=".MainActivity" />
+
+        <service
+            android:name=".service.FirebaseMessaging"
+            android:enabled="true"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_icon"
+            android:resource="@drawable/ic_notification_posyandu" />
+    </application>
+
+</manifest>

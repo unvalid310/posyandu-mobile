@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "516266150653",
+    "project_id": "posyandu-seruni",
+    "storage_bucket": "posyandu-seruni.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:516266150653:android:e791e31d702fde78364c94",
+        "android_client_info": {
+          "package_name": "com.sipanduteam.sipandu"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCN7VxEtqywr8fj6Y7XiD2hbX8ffGEaOeU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
